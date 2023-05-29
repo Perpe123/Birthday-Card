@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+    background-image: url("https://i.gifer.com/Ir4.gif");
+}
+  
+  .card {
+    width: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px orange;
+    animation: rotate 4s infinite;
+  }
+  
+  .card span{
+    color:white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .section {
+    width: 400px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px black;
+  }
+  
+  .section2{
+    background-color:#f0f0f0 ;
+    
+    box-shadow: 0 2px 5px orange;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(180deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  h1 {
+    color: #ff6f00;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sender{
+    text-align: end;
+    color: red;
+    font-family: cursive;
+    font-size: 12px;
+  }
+  
+  .sec2h2{
+    color: #ff6f00;
+  }
+  
+  
+  
+  img {
+    width: 150px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  
